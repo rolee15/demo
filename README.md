@@ -12,7 +12,7 @@ $ git clone https://github.com/rolee15/demo.git
 
 Then play with the source files under the repo's directories.
 
-## Structure
+## Folder structure
 
 - `00_Init`   Initial stage of code
 - `0X_StepX`  Steps to get to the final stage
@@ -21,11 +21,12 @@ Then play with the source files under the repo's directories.
 
 ## Index
 
-1. [TestableConsoleApp](#demo01-TestableConsoleApp)
+1. [TestableConsoleApp](#demo01-testableconsoleapp)
 
 ---
 
 ## Demo01: TestableConsoleApp
 
-
+We have a function in Console.cs we want to test, but it uses concrete objects, so it is impossible to write unit tests for it.
+In a few steps, we replace those objects with abstractions, and write tests with mocks of those objects.
 
